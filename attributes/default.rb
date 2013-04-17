@@ -61,3 +61,5 @@ else
   default[:mongodb][:apt_repo] = "debian-sysvinit"
 
 end
+
+default[:mongodb][:package_version] = nil

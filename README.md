@@ -39,6 +39,7 @@ For examples see the USAGE section below.
 * `mongodb[:sharded_collections]` - Define which collections are sharded
 * `mongodb[:replicaset_name]` - Define name of replicatset
 * `mongodb[:key_file]` - Contents of the keyFile used for internal communication between authenticated instances
+* `mongodb[:package_version]` - Version of the MongoDB package to install, default is nil
 
 # USAGE:
 
