@@ -38,6 +38,7 @@ For examples see the USAGE section below.
 * `mongodb[:shard_name]` - Name of a shard, default is "default"
 * `mongodb[:sharded_collections]` - Define which collections are sharded
 * `mongodb[:replicaset_name]` - Define name of replicatset
+* `mongodb[:key_file]` - Contents of the keyFile used for internal communication between authenticated instances
 
 # USAGE:
 
